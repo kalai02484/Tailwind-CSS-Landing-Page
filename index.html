@@ -7,13 +7,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
       @theme {
-       --font-Poppins: "Poppins",sans-seriff;
-       --font-Raleway: "Raleway",sans-seriff;
-       --color-bookmark-purple: #242A45;
-       --color-bookmark-red: #FA5959;
-       --color-bookmark-blue: #5267DF;
-       --color-bookmark-grey: #9194A2;
-       --color-bookmark-white: #F7F7F7;
+        --font-Poppins: "Poppins", sans-seriff;
+        --font-Raleway: "Raleway", sans-seriff;
+        --color-bookmark-purple: #242a45;
+        --color-bookmark-red: #fa5959;
+        --color-bookmark-blue: #5267df;
+        --color-bookmark-grey: #9194a2;
+        --color-bookmark-white: #f7f7f7;
       }
     </style>
     <link
@@ -27,8 +27,38 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline font-Poppins text-bookmark-red">HelloWorld</h1>
+  <body class="font-Poppins">
+    <!-- header / navigation part -->
+    <header>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1">
+          <img src="assests/logo-bookmark.svg" alt="logo" />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-purple uppercase text-md"
+        >
+          <li class="cursor-pointer">Features</li>
+          <li class="cursor-pointer">Pricing</li>
+          <li class="cursor-pointer">Contact</li>
+          <button
+            type="button"
+            class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase"
+          >
+            Login
+          </button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+         <i class="text-2xl fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
