@@ -63,45 +63,172 @@
     <!-- hero section -->
     <section class="relative">
       <!-- hero section common div -->
-      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+      <div
+        class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"
+      >
         <!-- content part left side -->
         <div class="flex flex-1 flex-col items-center lg:items-start">
           <h2
-          class="text-bookmark-purple font-Raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6"
-          >A simple Bookmark Manager</h2>
+            class="text-bookmark-purple font-Raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6"
+          >
+            A simple Bookmark Manager
+          </h2>
           <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
             Bookmarks Extension for Google is a minimal, clean Chrome Extension
             for Google Bookmarks. Open a new browser tab and see your sites load
             instantly. Try it for free.
           </p>
           <!-- button part -->
-           <div class="flex justify-center flex-wrap gap-6">
-            <button 
-            type="button"
-            class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-blue text-white hover:bg-white hover:text-black"
+          <div class="flex justify-center flex-wrap gap-6">
+            <button
+              type="button"
+              class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-blue text-white hover:bg-white hover:text-black"
             >
               Get it on chrome
             </button>
-             <button type="button"
+            <button
+              type="button"
               class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-white text-black hover:bg-bookmark-blue hover:text-white"
-             >
+            >
               Get it on firefox
             </button>
-           </div>
+          </div>
         </div>
         <!-- content/ image part right side -->
-         <div class="flex justify-center flex-1 mb-8 md:mb-14 lg:mb-0 z-10">
-           <img src="assests/hero-bg.png" alt="hero"
-           class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-           >
-         </div>
+        <div class="flex justify-center flex-1 mb-8 md:mb-14 lg:mb-0 z-10">
+          <img
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+            src="assests/hero-bg.png"
+            alt="hero"
+          />
+        </div>
       </div>
       <!-- background rectangle part -->
-       <div
-       class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"
-       >
-
-       </div>
+      <div
+        class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"
+      ></div>
+    </section>
+    <!-- Features part -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-50">
+      <!-- heading & features Intro -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-4xl text-center text-bookmark-purple">Features</h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <!-- features base div -->
+      <div class="relative mt-20 lg:mt-24">
+        <!-- feature1 -->
+        <div
+          class="container flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <!-- image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="assests/illustration-features-tab-1.png"
+              alt="features"
+            />
+          </div>
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-purple">Bookmark in one click</h1>
+            <p
+              class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites.
+            </p>
+            <button
+              type="button"
+              class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-blue text-white hover:bg-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <!-- rounded rectangle background -->
+        <div
+          class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
+        ></div>
+      </div>
+      <!-- feature 1 ends -->
+      <div class="relative mt-20 lg:mt-52">
+        <!-- feature2 -->
+        <div
+          class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24"
+        >
+          <!-- image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="assests/illustration-features-tab-2.png"
+              alt="features"
+            />
+          </div>
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-purple">Intelligent search</h1>
+            <p
+              class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Our powerful search feature will help you find saved sites in no
+              time at all. No need to crawl through all of your bookmarks.
+            </p>
+            <button
+              type="button"
+              class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-blue text-white hover:bg-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <!-- rounded rectangle background -->
+        <div
+          class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36"
+        ></div>
+      </div>
+      <!-- feature 2 ends -->
+      <div class="relative mt-20 lg:mt-24">
+        <!-- feature3 -->
+        <div
+          class="container flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <!-- image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="assests/illustration-features-tab-3.png"
+              alt="features"
+            />
+          </div>
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-purple">Share your bookmarks</h1>
+            <p
+              class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
+            >
+              Easily share your bookmarks and collections with others. Create a
+              shareable link that you can send at the click of a button.
+            </p>
+            <button
+              type="button"
+              class="shadow-md py-3 px-6 rounded-md transition duration-300 bg-bookmark-blue text-white hover:bg-white hover:text-black"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+        <!-- rounded rectangle background -->
+        <div
+          class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-r-full absolute h-80 w-2/4 -bottom-24 -left-36"
+        ></div>
+      </div>
+      <!-- feature 3 ends -->
     </section>
   </body>
 </html>
