@@ -14,6 +14,16 @@
         --color-bookmark-blue: #5267df;
         --color-bookmark-grey: #9194a2;
         --color-bookmark-white: #f7f7f7;
+        }
+
+      @utility container{
+         center:true;
+         padding:1rem;
+         screens:{
+          lg:"1124px",
+          xl:"1124px",
+          2xl:"1124px"
+         }
       }
     </style>
     <link
@@ -105,7 +115,7 @@
       </div>
       <!-- background rectangle part -->
       <div
-        class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"
+        class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-96 w-2/4 top-52 right-0"
       ></div>
     </section>
     <!-- Features part -->
@@ -189,7 +199,7 @@
         </div>
         <!-- rounded rectangle background -->
         <div
-          class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-80 w-2/4 -bottom-24 -right-36"
+         class="hidden lg:block overflow-hidden bg-bookmark-blue rounded-l-full absolute h-96 w-2/4 top-60 right-0"
         ></div>
       </div>
       <!-- feature 2 ends -->
@@ -207,7 +217,7 @@
             />
           </div>
           <!-- content -->
-          <div class="flex flex-1 flex-col items-center lg:items-start">
+          <div class="flex flex-1 flex-col items-center lg:items-start lg:mt-10">
             <h1 class="text-3xl text-bookmark-purple">Share your bookmarks</h1>
             <p
               class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full"
